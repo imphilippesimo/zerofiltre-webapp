@@ -89,10 +89,6 @@ header {
     z-index: 99;
 }
 
-header .container {
-    padding: 5%;
-}
-
 /**NAVBAR**/
 nav {
     position: relative;
@@ -299,9 +295,6 @@ header .whatsapp-link span {
 }
 
 @media only screen and (min-width: 640px) {
-    header .container {
-        padding: 3% 5%;
-    }
 
     .hero {
         margin-top: 4em;
@@ -364,10 +357,6 @@ header .whatsapp-link span {
 }
 
 @media only screen and (min-width: 1024px) {
-    header .container {
-        padding: 1.5% 5%;
-    }
-
     nav .logo {
         width: 200px;
     }
