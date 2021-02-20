@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FooterComponent } from './footer/footer.component';
+import * as fromComponents from './';
 
 
 
 @NgModule({
-  declarations: [FooterComponent],
+  declarations: [...fromComponents.components],
   imports: [
     CommonModule
   ],
   exports: [
-    FooterComponent
+    ...fromComponents.components
   ]
 })
 export class SharedModule { }

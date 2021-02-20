@@ -243,11 +243,6 @@ header .container {
   text-align: inherit;
 }
 
-.footer .yellow-text {
-  text-align: center;
-  margin-top: 10%;
-}
-
 .services .card,
 .reviews-carousel .card {
   margin-bottom: 1em;
@@ -338,18 +333,6 @@ header .container {
 
 .sponsor img {
   width: 30%;
-}
-
-.footer {
-  color: white;
-  background: var(--secondary-color);
-  border-top-left-radius: 20px;
-}
-
-.footer .useful-links li,
-.footer .useful-links ul {
-  margin-bottom: 1em;
-  font-size: 0.85em;
 }
 
 .separator {
@@ -749,11 +732,6 @@ header .container {
 
   .useful-links div:not(:last-child) {
     margin-right: 5%;
-  }
-
-  .footer .yellow-text {
-    text-align: left;
-    margin-top: 5%;
   }
 
   .contact {

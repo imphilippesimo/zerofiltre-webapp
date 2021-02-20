@@ -1,0 +1,23 @@
+.footer .yellow-text {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.footer {
+    color: white;
+    background: var(--secondary-color);
+    border-top-left-radius: 20px;
+}
+
+.footer .useful-links li,
+.footer .useful-links ul {
+    margin-bottom: 1em;
+    font-size: 0.85em;
+}
+
+@media only screen and (min-width: 1024px) {
+    .footer .yellow-text {
+        text-align: left;
+        margin-top: 5%;
+    }
+}
