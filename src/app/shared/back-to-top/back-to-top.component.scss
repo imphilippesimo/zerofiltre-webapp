@@ -1,4 +1,4 @@
-.back-to-top img {
+.back-to-top {
     position: fixed;
     bottom: 100px;
     right: 30px;
@@ -8,10 +8,22 @@
     cursor: pointer;
     padding: 10px;
     border-radius: 50%;
-    transform: rotate(180deg);
-    width: 20px;
+    width: 30px;
+    height: 30px;
+    opacity: 0;
+    transition: all .2s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 10px 20px rgba(0, 0, 0, 0.1);
 }
 
-.back-to-top img:hover {
+
+.show-back-to-top {
+    opacity: 1;
+    transition: all .2s ease-in-out;
+   }
+
+.back-to-top:hover {
     background-color: var(--accent-color);
 }
