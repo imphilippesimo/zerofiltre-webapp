@@ -4,12 +4,13 @@ import * as fromComponents from './';
 
 
 @NgModule({
-  declarations: [...fromComponents.components],
+  declarations: [...fromComponents.components, ...fromComponents.directives],
   imports: [
     CommonModule
   ],
   exports: [
-    ...fromComponents.components
+    ...fromComponents.components,
+    ...fromComponents.directives
   ]
 })
 export class SharedModule { }
