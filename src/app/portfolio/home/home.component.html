@@ -17,52 +17,15 @@
                     <div class="links hide-mobile">
 
                         <a href="/#about">A propos</a>
-
-
-                        <div class="dropdown">
+                        <div (click)="expand()">
                             <a href="#" class="dropBtn">
                                 <span>Services</span>
-                                <img src="assets/images/chevron-down.svg" alt="chevron-down">
+                                <span>
+                                    <i class="fas fa-chevron-down"></i>
+                                </span>
                             </a>
-
-                            <div class="dropdown-content hide-mobile">
-                                <div class="apps group">
-                                    <h1>Développement d’application</h1>
-                                    <a href="/app-java.html">
-                                        <img src="/assets/images/app-java-blue.svg" alt="">
-                                        <span>Développement d’application Java</span>
-                                    </a>
-                                    <a href="/app-nav.html">
-                                        <img src="/assets/images/app-web.svg" alt="">
-                                        <span>Développement d’applications pour navigateurs Web</span>
-                                    </a>
-                                    <a href="/app-mobile.html">
-                                        <img src="/assets/images/app-mob.svg" alt="">
-                                        <span>Développement d’applications mobiles</span>
-                                    </a>
-                                    <a href="/support.html">
-                                        <img src="/assets/images/app-maintenance.svg" alt="">
-                                        <span>Maintenance d’applications et support</span>
-                                    </a>
-                                </div>
-
-                                <div class="api group">
-                                    <h1>Développement d’APIs</h1>
-                                    <a href="/web-api.html">
-                                        <img src="/assets/images/app-api.svg" alt="">
-                                        <span>Développement d’APIs WEB</span>
-                                    </a>
-                                </div>
-
-                                <div class="ui group">
-                                    <h1>Conception d’interfaces graphiques</h1>
-                                    <a href="/ui.html">
-                                        <img src="/assets/images/ui-dev.svg" alt="">
-                                        <span>Conception de prototypes d’interfaces graphiques</span>
-                                    </a>
-                                </div>
-                            </div>
                         </div>
+                        <app-dropdown-menu [expanded]="serviceDropdownMenuExpanded"></app-dropdown-menu>
 
                         <a href="#" class="badge-link">
                             <span>Blog</span>
@@ -77,8 +40,8 @@
                         <a href="https://github.com/zero-filtre"><img src="assets/images/github.svg"
                                 alt="Nos repo github" /></a>
 
-                        <a href="https://www.linkedin.com/company/zerofiltre?_l=fr_FR"><img src="assets/images/linkedIn.svg"
-                                alt="Notre page LinkedIn"></a>
+                        <a href="https://www.linkedin.com/company/zerofiltre?_l=fr_FR"><img
+                                src="assets/images/linkedIn.svg" alt="Notre page LinkedIn"></a>
                     </div>
 
                 </nav>
@@ -101,7 +64,8 @@
                         <span>+33 7 53 42 86 23</span>
                     </a>
 
-                    <a href="https://github.com/zero-filtre"><img src="assets/images/github.svg" alt="Nos repo github" /></a>
+                    <a href="https://github.com/zero-filtre"><img src="assets/images/github.svg"
+                            alt="Nos repo github" /></a>
 
                     <a href="https://www.linkedin.com/company/zerofiltre?_l=fr_FR"><img src="assets/images/linkedIn.svg"
                             alt="Notre page LinkedIn"></a>
@@ -164,7 +128,8 @@
             </div>
             <img src="assets/images/landing_illustration.svg" alt="landing illustration" class="landing_illustration">
         </section>
-        <img src="assets/images/scroll_indicator.svg" alt="scroll down" class="scroll-indicator show-desktop hide-mobile">
+        <img src="assets/images/scroll_indicator.svg" alt="scroll down"
+            class="scroll-indicator show-desktop hide-mobile">
     </div>
 </div>
 
@@ -217,7 +182,8 @@
                 <li>
                     <a href="#">
                         <div class="card">
-                            <img src="assets/images/service_application_maintenance.svg" alt="icon application maintenance">
+                            <img src="assets/images/service_application_maintenance.svg"
+                                alt="icon application maintenance">
                         </div>
                         <h3>Maintenance et support</h3>
                         <p>

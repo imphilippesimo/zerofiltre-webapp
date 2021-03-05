@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  serviceDropdownMenuExpanded: boolean = false;
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  expand() {
+    this.serviceDropdownMenuExpanded = !this.serviceDropdownMenuExpanded;
   }
 
 }
